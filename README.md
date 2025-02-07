@@ -1,6 +1,6 @@
 # So you want to take Spacelift for a spin?
 
-This repository is designed just for this purpose. Click the _Use this template_ button to create your own repository in a GitHub account you manage (either your private account or an organization you have admin rights on), and let's get started. 
+This repository is designed just for this purpose. Click the _Use this template_ button to create your own repository in a GitHub account you manage (either your private account or an organization you have admin rights on), and let's get started.
 
 If you change the repository name, make sure to update the `spacelift_stack.managed` resource in the  `stack.tf` file.
 
@@ -174,11 +174,11 @@ And here's the exact change we're making:
 
 ![Pull Request changes](pics/18-pull-request-changes-min.png)
 
-That little change causes two runs to be executed since this repository is now connected to two stacks - one that you created manually and one that is managed programmatically. It's the latter stack we've made changes to, so you will see that there are no changes to the former, but one resource would be created for the latter. 
+That little change causes two runs to be executed since this repository is now connected to two stacks - one that you created manually and one that is managed programmatically. It's the latter stack we've made changes to, so you will see that there are no changes to the former, but one resource would be created for the latter.
 
 ![Pull Request feedback](pics/19-pull-request-feedback-min.png)
 
-Clicking on the _Details_ link next to the commit status check takes you to the test run for the affected stack. 
+Clicking on the _Details_ link next to the commit status check takes you to the test run for the affected stack.
 
 ![PR details](pics/20-pull-request-preview-min.png)
 
@@ -192,7 +192,7 @@ A run will be created automatically in the _Runs_ tab of your _Managed stack_ wh
 
 ![Run from a merged PR](pics/22-merged-pull-request-min.png)
 
-## Congratulations! 👏🏻 
+## Congratulations! 👏🏻
 
 You're a Spacelift expert now! If you like what you've seen so far, here are some suggestions:
 

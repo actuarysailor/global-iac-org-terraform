@@ -1,6 +1,6 @@
 package spacelift
 
-# This example plan policy prevents you from creating weak passwords, and warns 
+# This example plan policy prevents you from creating weak passwords, and warns
 # you when passwords are meh.
 #
 # You can read more about plan policies here:

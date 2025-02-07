@@ -49,8 +49,8 @@ resource "spacelift_environment_variable" "context-writeonly" {
 # Apart from setting environment variables in your Contexts, you can add files
 # to be mounted directly in Spacelift's workspace. For the purpose of this
 # experiment, let's export our environemnt variables as JSON-encoded files, too.
-# 
-# You can read more about mounted files here: 
+#
+# You can read more about mounted files here:
 #
 # https://docs.spacelift.io/concepts/environment#mounted-files
 resource "spacelift_mounted_file" "context-plaintext-file" {

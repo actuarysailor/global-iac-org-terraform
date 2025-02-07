@@ -1,6 +1,6 @@
 # PLAN POLICY
 #
-# This example plan policy prevents you from creating weak passwords, and warns 
+# This example plan policy prevents you from creating weak passwords, and warns
 # you when passwords are meh.
 #
 # You can read more about plan policies here:
@@ -82,7 +82,7 @@ resource "spacelift_policy_attachment" "trigger-self" {
 # Organization Settings -> Access -> Management Strategy
 #
 # You can read more about login policies here:
-# 
+#
 # https://docs.spacelift.io/concepts/policy/login-policy
 resource "spacelift_policy" "login" {
   type = "LOGIN"

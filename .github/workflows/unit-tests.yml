@@ -1,0 +1,28 @@
+# Name as it appears on the Actions tab of GitHub (for current repo; this get's ignored if called from another repo)
+name: 'Tests'
+
+# Controls when the workflow will run
+on:
+  push:
+    # Sequence of patterns matched against refs/heads
+    branches:
+      - 'releases/**'
+      - main
+      - rc/*
+      - rc
+      - beta/*
+      - beta
+      - alpha/*
+      - alpha
+  pull_request_target:
+    types:
+      - opened
+      - synchronize
+      - reopened
+
+jobs:
+  test:
+    name: Shared Workflow
+    run: |
+      echo "Needs to be configured!!!"
+      exit 1;
